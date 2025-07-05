@@ -1,0 +1,27 @@
+.sec2{
+ 	display:flex;
+	flex-direction:column;
+	align-items:center;
+	}
+.sec-2-1{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	}
+.sec-2-1 >:nth-child(1){
+	font-weight:600;
+	}
+.sec-2-2{
+	display:flex;
+	}
+.sec-2-2-1 img{
+	width:300px;
+	border-radius:50%;
+	}
+.box{
+	display:flex;
+	flex-direction:column;
+	}
+.box img{
+	width:35px;
+	}
