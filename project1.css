@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body{
+	font-family: "Poppins", sans-serif;
+        font-style: normal;
+	}
+a{
+	text-decoration:none;
+	color:black;
+	transition: all 0.3s ease;
+	}
+a:hover{
+	color:darkorange;
+	text-decoration:underline;
+	text-underline-offset:10px;
+	text-decoration-color: darkorange;
+	}
+.navbar{
+	display:flex;
+	align-items:center;
+	height:70px;
+	padding:0px 90px;
+
+	}
+.logo{
+	width:40%;
+	font-size:30px;
+	font-weight:600;
+	color:darkorange;
+	}
+.menu-bar{
+	list-style:none;
+	display:flex;
+	width:50%;
+	gap:30px;
+	justify-content:space-between;
+	}
+.menu-bar li{
+	font-size:21px;
+	}
+.hamburger{
+	display:none;
+	}
+
+@media (max-width:1024px){
+		
+*{
+	padding:0px;
+	
+	}
+.navbar{
+	display:flex;
+	padding-left:0px;
+	gap:65px;
+	}
+.menu-bar{
+	display:flex;
+	flex-direction:column;
+	}
+.hamburger{
+	background-color: white;
+	box-shadow: rgba(0, 0, 0, 0.24) 0pc 3px 8px;
+	position: fixed;
+	right:30px;
+	}
+.hamburger {
+	display:flex;
+	font-size:35px;	
+	padding:4px;
+	}
+.navbar .logo{
+	margin-top: 20px;
+	}
+div .sec-1-1{
+	margin-left:0px;
+	}
+
+
+
+}
+
