@@ -1,5 +1,46 @@
 .sec3{
-	display:flex;
-	flex-direction:column;
-	align-items:center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	}
+.sec-3-1{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	}
+.sec-3-2{
+	display: flex;
+	}
+.box2{
+	border: 2px solid black;
+	width: 350px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+	border-radius: 15px;
+	}
+.box2 >:nth-child(1){
+	font-size: 24px;
+	font-weight: 600;
+	}
+.skills{
+	display: grid;
+	grid-template-columns: auto auto;
+	}
+.skills-1 {
+	display: flex;
+	align-items: start;
+	gap: 10px;
+	}
+.skills-1 img{
+	width: 25px;
+	}
+.skills-1-2{
+	display: flex;
+	flex-direction: column;
+	}
+.skills-1-2 >:nth-child(1){
+	font-size: 19px;
+	font-weight: 600;
 	}
