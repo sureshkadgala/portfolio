@@ -1,0 +1,165 @@
+.case-study-in{
+	position: absolute;
+	top: 200px;
+	left: 40%;
+	}
+  
+.go-back{
+	background-color: white;
+	color: green;
+	border: 2px solid green;
+}
+
+
+.project {
+  background:#f2f2f2;
+  background-position: center;
+  height:100vh;
+  min-height: 80rem;;
+  max-height: 120rem;
+  position: relative;
+   }
+
+
+@media only screen and (max-width: 37.5em) {
+    .project {
+      height: unset;
+      min-height: unset; } }
+ 
+ .project__content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 90rem;
+    width: 92%;
+    
+     }
+    @media (max-width: 37.5em) {
+      .project__content {
+        padding: 19rem 0 13rem 0;
+        margin: auto;
+        position: static;
+        transform: translate(0, 0);
+         }
+      }
+
+.project__name{
+	color:#111;
+	font-size:6rem;
+	text-transform:uppercase;
+	letter-spacing:3px;
+	text-align: center;
+	font-weight: 800;
+}
+@media only screen and (max-width: 37.5em) {
+    .project__name {
+      font-size: 4.5rem; 
+    } 
+}
+
+
+.project__sub{
+	font-size:2.2rem;
+	line-height:1.6;
+	text-align: center;
+	width:100%;
+}
+ @media only screen and (max-width: 37.5em) {
+    .project__sub {
+      font-size: 2rem; } 
+}
+/*
+.scroll-mouse{
+	border: 1px solid green;
+	height: 4rem;
+	width: 3rem;
+  border-radius:1.2rem;
+  position: relative;
+  top:4.5rem;
+  left: 10rem;
+}  
+.scroll-mouse-in{
+  position:absolute;
+  border: 2px solid green;
+  width:1px;
+  border-radius: 3px;;
+}    */
+.project__info{
+    margin:3rem auto 0;
+    max-width: 80rem;
+}    
+
+
+/* -------------- project overview----------- */
+
+.project-overview {
+  
+  position: relative;
+}
+
+.project-overview__main{
+	max-width: 120rem;
+  margin: auto;
+  width: 92%;
+}
+
+.project-overview__content {
+	padding-bottom: 8rem;
+	max-width: 90rem;
+	margin: auto;
+}
+
+
+
+.project-overview__img{
+	width:100%;
+	margin-bottom: 6rem;
+}
+
+.project-overview__image{
+	width:100%;
+}
+
+.project-overview__description{
+	width: 100%;
+  max-width: 70rem;
+  margin: auto;
+}
+
+.project-overview__info{
+	margin: 0 0 7rem 0;
+}
+
+.project-overview__heading{
+	font-weight: 700;
+	font-size:2.8rem;
+	margin-bottom:3rem;
+}
+
+.project-overview__sub{
+
+	font-size:1.8rem;
+	line-height:1.7;
+	margin-bottom:2rem;
+}
+
+.project-overview__sub:last-child{
+	margin-bottom: 4rem;
+}
+
+
+
+.project-overview__skills{
+
+	display:flex;
+	flex-wrap:wrap;
+	
+}
+
+.project-overview__link{
+    display: inline-block;
+    margin-right:2rem;
+    margin-bottom: 2rem;
+}
+
